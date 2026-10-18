@@ -55,6 +55,7 @@ htmlcov/
 *.swo
 *~
 tempCodeRunnerFile.py
+CLAUDE.md
 
 # Operating system files
 .DS_Store
