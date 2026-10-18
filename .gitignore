@@ -1,0 +1,66 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Vector database storage & model caches
+qdrant_storage/
+.cache/
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE & Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.py
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled archive outputs (optional: keep if you want users to download the zip from repo, but usually built in releases)
+woo-search-integration.zip
+
